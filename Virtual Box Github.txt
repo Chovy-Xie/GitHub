@@ -1,0 +1,31 @@
+Virtual Box Github
+
+
+clear
+
+ls (List Directory Contents)
+ls -l (Long Format)
+ls -lt (Sorted by Time)
+ls -ls (Sorted by Size)
+ls -d */ (Only the Directory)
+ls -a
+
+cd <file_name> (Change Directory)
+cd ..
+cd ../..
+
+pwd (Print Working Directory)
+
+mkdir <folder_name> (Create Folders)
+
+touch <file_name> (Create an Empty File)		=> touch new_file.txt
+
+open <file_name> (Open the File)			=> open new_file.txt
+
+cat <file_name> (Concatenate & Display the File Content)	=> cat new_file.txt
+
+rm <file_name> (Remove Files or Directories)	=> rm new_file.txt
+
+rm -r <folder_name> (Remove Folders)		=> rm -r newFolder
+
+mv <folder_name> <newFolder_name> (Move or Rename Files or Directories)
