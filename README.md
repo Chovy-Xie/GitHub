@@ -9,6 +9,10 @@
 
 [Create and Upload Local Files](#If-Already-Have-Local-Files-to-Upload)
 
+[Pull Request](#GitHub-Send-Pull-Request)
+
+[Additional Instruction](#Addition)
+
 
 ## Git Getting Started
 
@@ -71,7 +75,7 @@ git push origin <branch-name>
 ```
 
 ### GitHub Send Pull Request
-[w3schools](https://www.w3schools.com/git/git_remote_send_pull_request.asp?remote=github).
+[w3schools](https://www.w3schools.com/git/git_remote_send_pull_request.asp?remote=github)
 
 ### Addition
 ```
