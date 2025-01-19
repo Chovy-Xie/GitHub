@@ -74,3 +74,45 @@ cat <file-name.txt>  # display the file content
 rm <file-name.txt>  # remove file or directory
 mv <file-name.txt> <new-file-name.txt>  # rename files or directory>
 ```
+
+
+## If Already Have Local Files to Upload
+
+### Create a new Repository
+1. Go to [GitHub](https://github.com/) and log in to your account.
+2. Click the **New** button (+ icon).
+3. Fill in the repository details: <ins>repo-name</ins>, <ins>description(optional)</ins>, <ins>Public</ins> or <ins>Private</ins>.
+4. Do **NOT** initialize the repository with a <ins>README.md</ins>.
+5. Click **Create** repository.
+
+### Prepare Local Project
+1. Open a <ins>terminal</ins> or <ins>Git Bash</ins>.
+2. Navigate to your local project directory:
+```
+cd /path/to/your/project
+```
+3. Initialize a Git reposiotry:
+```
+git init
+```
+
+### Link Local Repository to GitHub
+```
+git remote add origin https://github.com/Chovy-Xie/GitHub.git
+```
+
+### Stage and Commit Local Files
+1. Add all files to the staging area:
+```
+git add -A
+```
+2. Commit the changes:
+```
+git commit -m "Initial commit"
+```
+
+### Push Local Repository to GitHub
+```
+git branch -M main
+git push -u origin main
+```
