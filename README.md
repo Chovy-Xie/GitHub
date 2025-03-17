@@ -86,7 +86,10 @@ git pull
 git checkout <your-branch>
 git merge <another-branch>
 
+# fix conflict
 
+git commit -m "merge with branch-name"
+git push origin <your-branch>
 ```
 
 ### Addition
