@@ -11,6 +11,8 @@
 
 [Pull Request](#GitHub-Send-Pull-Request)
 
+[Merge](#Git-Merge-Branch)
+
 [Additional Instruction](#Addition)
 
 
@@ -76,6 +78,16 @@ git push origin <branch-name>
 
 ### GitHub Send Pull Request
 [w3schools](https://www.w3schools.com/git/git_remote_send_pull_request.asp?remote=github)
+
+### Git Merge Branch
+```
+git checkout <another-branch>
+git pull
+git checkout <your-branch>
+git merge <another-branch>
+
+
+```
 
 ### Addition
 ```
