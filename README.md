@@ -82,13 +82,14 @@ git push origin <branch-name>
 ### Git Merge Branch
 ```
 git checkout <another-branch>
-git pull
+git pull origin <another-branch>
 git checkout <your-branch>
 git merge <another-branch>
 
 # fix conflict
-
 git commit -m "merge with branch-name"
+:wq
+
 git push origin <your-branch>
 ```
 
