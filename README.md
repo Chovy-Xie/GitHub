@@ -87,8 +87,10 @@ git checkout <your-branch>
 git merge <another-branch>
 
 # fix conflict
-git commit -m "merge with branch-name"
-:wq
+Press I  # enter "insert mode" to edit commit message manually
+Press Esc  # exit "insert mode"
+:wq  # write(save) the file and quit vim
+:q!  # or quit without saving (if you want to cancel) 
 
 git push origin <your-branch>
 ```
